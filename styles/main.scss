@@ -12,6 +12,10 @@ $orderColor:#000080;
     display:flex; flex-flow:row nowrap;
     align-items: center; justify-content:center;
 }
+@mixin flex-column {
+    display:flex; flex-flow:column nowrap;
+    align-items:center; justify-content:space-between;
+}
 // -----------------------------------
 // -------------------------------------skip
 // .lang, .all_nav, .sub {display:none;}
@@ -88,3 +92,30 @@ header {
         } //e:nav
     }// e:h_btm
 }// e:header
+main {position:relative;
+    #right_popup {
+        #popup_btn {
+            background:$wh; width:30px; border:1px solid $fontColor2;
+            display:fixed; @include flex-column; position:absolute;
+            right:0; top:0;
+            a {
+                img{}
+            }
+        }
+        .contents {
+            background:$wh; width:500px; border:2px solid red;
+            .info {img{}}
+            .info_contents {}
+            .user {
+                a {span{}}
+            }
+            .board {
+                a {}
+            }
+            h2 {}
+            h2+p {img{}}
+            address {}
+            address+p {}
+        } //e:contents
+    } //e:right_popup
+} //e:main

@@ -123,4 +123,26 @@ header .btm nav > ul > li .sub {
 header .btm nav > ul > li .sub li a {
   padding: 10px;
   display: block;
+}
+
+main {
+  position: relative;
+}
+main #right_popup #popup_btn {
+  background: #fff;
+  width: 30px;
+  border: 1px solid #aaa;
+  display: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+main #right_popup .contents {
+  background: #fff;
+  width: 500px;
+  border: 2px solid red;
 }/*# sourceMappingURL=main.css.map */
