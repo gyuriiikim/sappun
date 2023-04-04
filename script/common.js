@@ -44,3 +44,19 @@ kr_lnb.addEventListener('mouseover',function(){
 kr_lnb.addEventListener('mouseout',function(){
     kr_lnb_open.style.display = 'none'
 })
+
+//--------------------------------------------------------- main - right_popu
+const right_popup = document.querySelector('#right_popup')
+const popup_btn = document.querySelector('#popup_btn a:first-child')
+console.log(right_popup, popup_btn)
+// 1. right 500만큼 숨기기
+right_popup.style.transform = 'translateX(500px)'
+// 2. popup_btn 클릭 -> right 보이기
+popup_btn.addEventListener('click',function(){
+    right_popup.style.transition = 'all 0.5s'
+    right_popup.style.transform = 'translateX(0)'
+})
+popup_btn.addEventListener('mouseover',function(){
+    right_popup.style.transition = 'all 1s'
+    right_popup.style.transform = 'translateX(500px)'
+})
