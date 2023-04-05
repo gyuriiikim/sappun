@@ -208,4 +208,124 @@ main #right_popup .contents address + p {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.5;
+}
+main .visual img {
+  width: 100%;
+}
+main .event_bnr {
+  padding: 100px 0;
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-columns: repeat(3, 33%);
+  justify-content: space-between;
+}
+main .event_bnr a img {
+  width: 100%;
+}
+main .weekly_best {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 0 100px;
+}
+main .weekly_best > h2 {
+  font-weight: 800;
+  padding-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .weekly_best .product {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 50px;
+}
+main .weekly_best .product li {
+  line-height: 1.5;
+}
+main .weekly_best .product li .photo img {
+  width: 100%;
+}
+main .weekly_best .product li h2 {
+  font-size: 0.75rem;
+  letter-spacing: -0.02em;
+}
+main .weekly_best .product li .price {
+  margin: 10px 0 20px;
+  font-weight: 800;
+}
+main .weekly_best .product li .btm {
+  width: 100%;
+  border-top: 1px solid #aaa;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main .weekly_best .product li .btm .size {
+  font-size: 0.75rem;
+  line-height: 2;
+}
+main .weekly_best .product li .btm .review {
+  font-size: 0.75rem;
+  color: #ff7f50;
+}
+main .weekly_best .product li .btm_color span {
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+}
+main .weekly_best .product li .btm_color .best {
+  background: #ffe4c4;
+  margin-right: 5px;
+}
+main .weekly_best .product li .btm_color .order {
+  background: #000080;
+}
+main .sappun_made {
+  background: url(../images/made_img.jpg);
+  margin-bottom: 100px;
+  text-align: center;
+  background-position: center;
+  padding: 100px 0;
+}
+main .sappun_made h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+main .sappun_made a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  line-height: 5;
+  font-weight: 700;
+}
+main footer {
+  border-top: 1px solid #aaa;
+  padding: 80px 0;
+}
+main footer .ft_bg {
+  margin: 0 auto;
+  width: 1200px;
+}
+main footer .ft_bg .top {
+  padding: 30px 0;
+}
+main footer .ft_bg .top a {
+  margin-right: 30px;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+main footer .ft_bg .top a span {
+  font-size: 0.75rem;
+  color: #222;
+}
+main footer .ft_bg .btm p {
+  font-size: 0.75rem;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
