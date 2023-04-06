@@ -30,13 +30,15 @@ $orderColor:#000080;
 }// e:popup
 // --------------------------------------------------------- header
 header {
-    background:lightblue; width:1200px; margin:0 auto;
+    // background:lightblue; 
+    width:1200px; margin:0 auto;
     .top {position:relative;
         h1 {text-align:center; padding:50px 0;
             a {img{}}
         }
         .right {
-            @include flex-center; background:pink; 
+            @include flex-center;
+            // background:pink; 
             position:absolute; right:0; bottom:15px;
                 li:first-child {position:relative;
                 > a::after{
