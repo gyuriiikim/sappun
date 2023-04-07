@@ -1,0 +1,40 @@
+main {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex: row none;
+  flex-flow: row nowrap;
+}
+main .container {
+  background: pink;
+  width: calc(100% - 380px);
+}
+main .container .product_big img {
+  width: 100%;
+}
+main .container h2 {
+  margin: 50px 0;
+  text-align: center;
+  font-weight: 700;
+}
+main .container .ai {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+main .container .ai a p img {
+  width: 100%;
+}
+main aside {
+  background: aqua;
+  width: 380px;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+}
+main aside h1 {
+  margin: 20px 0;
+  font-weight: 700;
+}/*# sourceMappingURL=sub.css.map */

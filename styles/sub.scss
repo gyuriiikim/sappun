@@ -1,0 +1,91 @@
+// ------ 색상
+$wh:#fff;
+$border:#ff7f50;
+$fontColor:#222;
+$fontColor2:#aaa;
+$bgColor:#eee;
+$bestColor:#ffe4c4;
+$orderColor:#000080;
+$order_bar:#ff69b4;
+// 전체 w 1200px
+// 주문영역 w 380px
+// 레이아웃 구분 배경색 적용하기
+// container의 너비값은 calc계산법 이용 380을 뺀 나머지 처리하기
+main {
+    width:1200px; margin:0 auto;
+    display:flex; flex:row none; flex-flow:row nowrap;
+    .container {
+        background:pink; 
+        width:calc(100% - 380px);
+        .product_big{
+            img{width:100%;}
+        }
+        h2 {
+            margin:50px 0; text-align:center; font-weight:700;
+        }
+        .ai {
+            display:flex; justify-content:space-between;
+            flex-flow:row nowrap;
+            a {
+                p {
+                    img {width:100%;}
+                    em {}
+                }
+                h3 {}
+            }
+        }
+        .category {
+            a {}
+            .active {}
+        }
+        .product_img {img {}}
+    } // e:container
+    aside {
+        background:aqua; width:380px; height:100vh;
+        position:sticky; top:0; padding:20px;
+        .like {
+            img{}
+        }
+        h1 {margin:20px 0; font-weight:700;}
+        dl {
+            dt {}
+            dd {
+                #color_option {
+                    option {}
+                }
+                #height_option {
+                    option {}
+                }
+                #size_option {
+                    option {}
+                }
+            }
+        }
+        .order {
+            .price_wrap {
+                h2 {}
+                p {
+                    .price {}
+                }
+            }
+            button {}
+            #nuy {}
+            #cart {}
+            #view {}
+        }
+        .review {
+            p {}
+            a {}
+            .helper {
+                em{}
+            }
+            .box {
+                .bar {}
+            }
+        }
+        .btm {
+            p {}
+            .review_view {}
+        }
+    } // e:container
+}
